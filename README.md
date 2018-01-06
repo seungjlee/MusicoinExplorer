@@ -1,4 +1,4 @@
-# Musicoin Block Explorer
+# Ethereum Classic Block Explorer
 
 A blockchain explorer built with Node.js and Parity. It does not require an external database and retrieves all information on the fly from a backend Parity node.
 
@@ -33,8 +33,8 @@ Supported environment:
 
 1. Install the Parity node. You might need to install VS 2015 x64 redistributable from Microsoft
 2. Install Node.js
-3. Start parity using the following options: `parity --chain musicoin --tracing=on --fat-db=on --pruning=archive  --ipcpath=\\.\pipe\musicoin.ipc`
-4. Clone this repository to your local machine: `git clone https://github.com/seungjlee/MusicoinExplorer.git --recursive` (Make sure to include `--recursive` in order to fetch the solc-bin git submodule).
+3. Start parity using the following options: `parity --chain musicoin --tracing=on --fat-db=on --pruning=archive  --ipcpath=\\.\pipe\etc.ipc`
+4. Clone this repository to your local machine: `git clone -b etc https://github.com/seungjlee/MusicoinExplorer.git --recursive` (Make sure to include `--recursive` in order to fetch the solc-bin git submodule).
 5. Install all dependencies: `npm install`
 6. Adjust `config.js` if necessary.
 7. Start the block explorer: `npm start`
@@ -46,5 +46,3 @@ Supported environment:
 /api/accountBalance/<account_address>  
 /api/transaction/<transaction_hash>  
 
-### Web Site
-The ssl branch is the one currently running at https://explorer.musicoin.org  
