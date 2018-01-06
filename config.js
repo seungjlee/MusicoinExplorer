@@ -11,14 +11,12 @@ var config = function ()
   
   this.names =
   {
-    "0x00297dbed0856c7915b91cb88a61e1930156a330": "Developer SJL",
-    "0x89dbd56e0ac511518416fdcf5ccb452c2e89e0d4": "musicoin.miningpoolhub.com",
-    "0x6c2da62088e88059c5eb008e161bcef038839516": "musicoin.miningclub.info",
-    "0x7be6f70c1a9903146c49685fb4811b18348bb91c": "mc.minecrypto.pro",
-    "0xb5e08179a97359f189a07b51478c2ba2fc779cf0": "mc.minecrypto.pro",
-    "0x3a0b46a62ed6d65d98a6129d6e50dc714c1cfe23": "gmc.epool.io",
-    "0x1cc2f94b2cd644aa3d262f7b144088b810375f80": "music.mypool.online",
-    "0xa11d858c900487ad62dcc1cecdd87d4514fb70fa": "music.reidocoin.com.br"
+    "0x003a4f56b9d740c142bc72724fb11a2a6d6e70d5": "Developer SJL",
+    "0xdf7d7e053933b5cc24372f878c90e62dadad5d42": "etc.ethermine.org",
+    "0x9eab4b0fc468a7f5d46228bf5a76cb52370d068d": "etc.nanopool.org",
+    "0x1c0fa194a9d3b44313dcd849f3c6be6ad270a0a4": "ethereum-classic.miningpoolhub.com",
+    "0x4750e296949b747df1585aa67beee8be903dd560": "uupool.cn",
+    "0xc91716199ccde49dc4fafaeb68925127ac80443f": "www.f2pool.com"
   }
   
   this.sslKey = "";
