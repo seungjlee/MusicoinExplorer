@@ -20,7 +20,7 @@ block content
           td
             a(href="/account/" + block.author) #{nameformatter.format(block.author)}
           td(style='text-align:right') #{numeral(block.difficulty * 1e-12).format('0.000')} TH
-          td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 15).format('0.00')} GH/s
+          td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 30).format('0.00')} GH/s
           td #{moment.unix(block.timestamp).format()}
           td #{block.transactions.length}
           td #{block.uncles.length}

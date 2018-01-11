@@ -58,7 +58,7 @@ block content
                       a(href="/block/" + trace.blockNumber) #{trace.blockNumber}
                     td #{moment.unix(block.time).format()} (#{moment.unix(block.time).fromNow()})
                     td(style='text-align:right') #{numeral(block.difficulty * 1e-12).format('0.000')} TH
-                    td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 15).format('0.00')} GH/s
+                    td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 30).format('0.00')} GH/s
                     td.capitalize
                       if trace.error
                         span(style="color: red", data-toggle="tooltip", data-placement="left", title=trace.error).glyphicon.glyphicon-warning-sign
@@ -82,7 +82,7 @@ block content
                         a(href="/block/" + trace.blockNumber) #{trace.blockNumber}
                       td #{moment.unix(block.time).format()} (#{moment.unix(block.time).fromNow()})
                       td(style='text-align:right') #{numeral(block.difficulty * 1e-12).format('0.000')} TH
-                      td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 15).format('0.00')} GH/s
+                      td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 30).format('0.00')} GH/s
                       td Mined
                       td(style='text-align:right') #{ethformatter(trace.action.value)}
                       td(style='text-align:right') #{ethformatter(block.balance)}
@@ -96,7 +96,7 @@ block content
                         a(href="/block/" + trace.blockNumber) #{trace.blockNumber}
                       td #{moment.unix(block.time).format()} (#{moment.unix(block.time).fromNow()})
                       td(style='text-align:right') #{numeral(block.difficulty * 1e-12).format('0.000')} TH
-                      td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 15).format('0.00')} GH/s
+                      td(style='text-align:right') #{numeral(block.difficulty * 1e-9 / 30).format('0.00')} GH/s
                       td Uncle
                       td(style='text-align:right') #{ethformatter(trace.action.value)}
                       td(style='text-align:right') #{ethformatter(block.balance)}
